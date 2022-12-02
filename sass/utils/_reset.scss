@@ -1,0 +1,38 @@
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  img {
+    display: block;
+  }
+  section {
+    display: flex;
+    margin: 0;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .conteiner {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .body {
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+    color: var(--back-color);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: var(--btn-color);
+  }

@@ -1,0 +1,25 @@
+.section-lorem {
+  background-color: var(--btn-color);
+
+  &__list {
+    display: flex;
+    justify-content: center;
+  }
+  &__icon {
+    background: var(--back3-color);
+    border-radius: 4px;
+  }
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-top: 70px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color);
+    margin-top: 7px;
+    margin-right: 22px;
+  }
+}
