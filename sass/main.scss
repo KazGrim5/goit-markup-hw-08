@@ -1,4 +1,5 @@
 @import "./utils/variables";
+@import "./utils/d-none";
 @import "./utils/reset";
 @import "./utils/backdrop";
 @import "./utils/ishidden";
@@ -6,6 +7,7 @@
 @import "./components/header";
 @import "./components/section-order";
 @import "./components/modal";
+@import "./components/mobile-menu";
 @import "./components/section-lorem";
 @import "./components/app";
 @import "./components/section-team";
