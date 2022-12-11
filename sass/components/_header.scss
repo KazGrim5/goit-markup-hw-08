@@ -11,6 +11,26 @@
     margin-left: auto;
     padding: 0;
   }
+  &__link-item {
+    display: flex;
+    fill: var(--text-color);
+    margin-right: 37px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &-contacts {
+      color: var(--text-color);
+      margin-left: 10px;
+    }
+    &:hover,
+    &-contacts:hover {
+      fill: var(--hover-color);
+      color: var(--hover-color);
+      cursor: pointer;
+    }
+    &:hover a {
+      color: var(--hover-color);
+    }
+  }
   @media screen and (min-width: 768px) {
     &__link-list {
       display: flex;
@@ -68,9 +88,6 @@
   }
 }
 .nav-menu {
-  @media screen and (min-width: 480px) {
-    display: none;
-  }
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;

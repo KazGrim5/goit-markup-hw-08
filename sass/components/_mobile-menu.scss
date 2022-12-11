@@ -19,7 +19,8 @@
 
 .mobile-menu {
   & {
-    width: 480px;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding: 48px 40px;
@@ -76,9 +77,6 @@
     margin-bottom: auto;
     padding: 0;
   }
-  // &__item-nav:last-child {
-  //   margin-bottom: 306px;
-  // }
   &__link-contact-tel {
     margin-bottom: 32px;
 
