@@ -45,7 +45,7 @@
     & > label {
       display: flex;
       flex-direction: column;
-      width: 370px;
+      width: 82vw;
       transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
@@ -70,17 +70,17 @@
     }
     &-username {
       position: absolute;
-      left: 80px;
+      left: 12%;
       top: 107px;
     }
     &-tel {
       position: absolute;
-      left: 80px;
+      left: 12%;
       top: 175px;
     }
     &-email {
       position: absolute;
-      left: 78px;
+      left: 12%;
       top: 243px;
     }
   }
